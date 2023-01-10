@@ -1,0 +1,69 @@
+.registr {
+    background-color: #000;
+    width: 100%;
+    height: 635px;
+}
+
+.registr .registr-bd {
+    max-width: 1200px;
+    background-color: white;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.registr .registr-bd h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    /* font-family: 'Bungee', cursive; */
+    color: #000;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registr .registr-bd .input {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.registr .registr-bd .input input {
+    width: 390px;
+    /* height: 0px; */
+    padding: 10px 50px;
+    margin: 10px 50px;
+    text-align: start;
+    border-radius: 10px;
+    font-size: 18px;
+    /* font-family: 'Bungee', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.registr .registr-bd .input a {
+    width: 390px;
+    /* height: 20px; */
+    padding: 20px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: red;
+    text-decoration: none;
+    /* font-family: 'Bungee', cursive; */
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registr .registr-bd .input a:hover {
+    /* background-color: white; */
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+    background-color: #000;
+}

@@ -1,0 +1,92 @@
+.women {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    /* margin-top: 50px; */
+}
+
+.women .women-shoes .women-box {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+}
+
+.women .women-shoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.women .women-shoes .women-box {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.women .women-shoes .women-box img {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.women .women-shoes .women-box:hover {
+    box-shadow: 0 0 40px #000;
+    transition: .3s;
+}
+
+.women-shoes .women-box .women-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.women-shoes .women-box .women-text .buy {
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.women-shoes .women-box .women-text .buy:hover {
+    /* background-color: red; */
+    color: black;
+    transition: .3s;
+    box-shadow: 0 0 40px #fff;
+}
+
+.women .text-women h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    width: 50%;
+    padding: 20px 50px;
+    background-color: black;
+    border-radius: 0 0 15px 15px;
+    color: white;
+}
+
+.women .text-women {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ======================================================== */
+
+@media(max-width:970px) {
+    .women .women-shoes {
+        flex-wrap: wrap;
+    }
+}

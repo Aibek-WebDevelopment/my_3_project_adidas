@@ -1,0 +1,78 @@
+.login {
+    background-color: #000;
+    width: 100%;
+    height: 635px;
+}
+
+.login .login-bd {
+    max-width: 600px;
+    background-color: #fff;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.login .login-bd h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    padding: 20px;
+}
+
+.login .login-bd .input {
+    padding-top: 100px;
+}
+
+.login .login-bd .input input {
+    width: 450px;
+    padding: 10px 40px;
+    margin: 10px 60px 10px 60px;
+    text-align: start;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login .login-bd .input a {
+    width: 450px;
+    padding: 20px;
+    margin: 10px 60px 10px 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login .login-bd .input p {
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.login .login-bd .input a:hover {
+    background-color: white;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+    background-color: red;
+}
+
+.login .login-bd .input .krasny {
+    background-color: red;
+}
+
+.login .login-bd .input .krasny:hover {
+    background-color: #000;
+}
